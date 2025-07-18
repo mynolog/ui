@@ -20,7 +20,7 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    htmlFor: 'username',
-    children: '이메일',
+    htmlFor: 'nickname',
+    children: '닉네임',
   },
 }
