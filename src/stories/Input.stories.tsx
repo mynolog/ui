@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import type { ChangeEvent } from 'react'
 
 import { useState } from 'react'
-import Input from '../components/Input'
+import Input from '../components/ui/Input'
 
 const meta = {
   title: 'Text/Input',

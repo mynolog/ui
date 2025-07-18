@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
-import ErrorMessage from '../components/ErrorMessage'
+import ErrorMessage from '../components/ui/ErrorMessage'
 
 const meta = {
   title: 'Text/ErrorMessage',
