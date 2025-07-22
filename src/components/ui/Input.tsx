@@ -1,6 +1,6 @@
 import type { InputHTMLAttributes, ChangeEvent } from 'react'
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   value: string
   type?: 'text' | 'password'
   disabled?: boolean

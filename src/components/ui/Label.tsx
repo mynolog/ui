@@ -1,14 +1,14 @@
 import type { LabelHTMLAttributes } from 'react'
 
-interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
+export interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
   htmlFor: string
-  children: string
+  label: string
 }
 
-export default function Label({ htmlFor, children, ...rest }: LabelProps) {
+export default function Label({ htmlFor, label, ...rest }: LabelProps) {
   return (
     <label {...rest} htmlFor={htmlFor} className="text-sm text-secondary">
-      {children}
+      {label}
     </label>
   )
 }

@@ -1,4 +1,4 @@
-interface ErrorMessageProps {
+export interface ErrorMessageProps {
   children: string
 }
 
